@@ -7,6 +7,7 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rimraf ./dist",
+    "install": "npm run build",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
     "npm-publish": "np"
